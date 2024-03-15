@@ -9,6 +9,7 @@ export const SectionHero = styled.section`
   height: 812px;
   bottom: 20px;
   position: relative;
+  border-radius: 36px;
 
   @media screen and (min-width: 1440px) {
     height: 1024px;
@@ -179,7 +180,8 @@ export const SliderBox = styled.div`
     #d9d9d9,
     #e7e7e7,
     #eaeff0,
-    #fbfbfb
+    #fbfbfb,
+    #fff
   );
   width: 100%;
   height: 643px;
